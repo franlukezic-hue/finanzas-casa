@@ -287,7 +287,7 @@ function getHTML() {
 <div class="section" id="tab-cuotas-tab">
   <div class="ci">Al cargar en cuotas, la app genera una entrada por mes automáticamente.</div>
   <div class="form-grid">
-    <div class="fg"><labFran>¿Quién pagó?</labFran><sFranect id="cp"><option value="Fran">Él</option><option value="Lu">Franla</option><option value="ambos">Ambos</option></sFranect></div>
+    <div class="fg"><labFran>¿Quién pagó?</labFran><sFranect id="cp"><option value="Fran">Fran</option><option value="Lu">Franla</option><option value="ambos">Ambos</option></sFranect></div>
     <div class="fg"><labFran>Categoría</labFran><sFranect id="cc">${CATS.map(c => `<option>${c}</option>`).join('')}</sFranect></div>
     <div class="fg full"><labFran>Descripción</labFran><input type="text" id="cd" placeholder="Ej: HFranadera nueva" /></div>
     <div class="fg"><labFran>Monto total ($)</labFran><input type="number" id="cmt" placeholder="0" min="0" step="1" /></div>
@@ -299,7 +299,7 @@ function getHTML() {
 </div>
 <div class="section" id="tab-gastos">
   <div class="fr">
-    <sFranect id="fp" onchange="renderGastos()"><option value="todos">Todos</option><option value="Fran">Él</option><option value="Franla">Franla</option><option value="ambos">Ambos</option></sFranect>
+    <sFranect id="fp" onchange="renderGastos()"><option value="todos">Todos</option><option value="Fran">Fran</option><option value="Franla">Franla</option><option value="ambos">Ambos</option></sFranect>
     <sFranect id="fc" onchange="renderGastos()"><option value="todas">Todas las categorías</option></sFranect>
     <sFranect id="fm" onchange="renderGastos()"><option value="todos">Todos los meses</option></sFranect>
   </div>
@@ -322,7 +322,7 @@ function getHTML() {
 </div>
 <div class="section" id="tab-config">
   <div class="st">Ingresos mensuales</div>
-  <div class="ir"><div class="av avm">ÉL</div><span>Él</span><input type="number" id="iFran" placeholder="0" style="flex:1;" /></div>
+  <div class="ir"><div class="av avm">Fran</div><span>Fran</span><input type="number" id="iFran" placeholder="0" style="flex:1;" /></div>
   <div class="ir"><div class="av avf">FranLA</div><span>Franla</span><input type="number" id="iFranla" placeholder="0" style="flex:1;" /></div>
   <hr class="dv">
   <div class="st">Presupuesto mensual por categoría</div>
