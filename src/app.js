@@ -1,4 +1,4 @@
-import { sb } from './main.js'
+import { createClient } from '@supabase/supabase-js'; const sb = createClient('https://eteqtnpqbqjvgpkqxsqh.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV0ZXF0bnBxYnFqdmdwa3hzcWgiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTc0NDc1MzI0NiwiZXhwIjoyMDYwMzI5MjQ2fQ.8ZXFmkElqBd0dOXAFGRJNHhx
 
 const CATS = ['Alquiler / Hipoteca','Expensas','Supermercado','Servicios (luz, gas, agua)','Internet / Cable','Salud','Transporte','Restaurante / Delivery','Ropa','Entretenimiento','Limpieza / Hogar','Mascota','Ahorro','Otro']
 
