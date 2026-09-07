@@ -3,6 +3,6 @@ import './style.css'
 import './app.js'
 
 const SUPABASE_URL = 'https://eteqtnpqbqjvgpkqxsqh.supabase.co'
-const SUPABASE_KEY = 'sb_publishable_sYaHERhSHZDp09RYom8hLA_YLVdM9dV'
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3...'
 
 export const sb = createClient(SUPABASE_URL, SUPABASE_KEY)
